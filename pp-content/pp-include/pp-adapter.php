@@ -20,9 +20,9 @@
     $requirements = [
         [
             'name'     => 'PHP Version',
-            'required' => '8.1.x - 8.3.x',
+            'required' => '8.1.x - 8.5.x',
             'current'  => PHP_VERSION,
-            'check'    => version_compare(PHP_VERSION, '8.1.0', '>=') && version_compare(PHP_VERSION, '8.4.0', '<')
+            'check'    => version_compare(PHP_VERSION, '8.1.0', '>=') && version_compare(PHP_VERSION, '8.6.0', '<')
         ],
         [
             'name'     => 'cURL',
